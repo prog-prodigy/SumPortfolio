@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>devSuman Portfolio</title>
+
+    <!-- font awesome -->
+    <script
+      src="https://kit.fontawesome.com/3962cd6436.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- external css -->
+    <link rel="stylesheet" href="styles.css" />
+
+    <!-- Google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;800&family=Sacramento&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Sacramento&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <div class="logo">dev.Suman</div>
+      <button class="nav-toggle">
+        <div class="hamburger"></div>
+      </button>
+      <nav class="nav">
+        <ul class="nav-list">
+          <li class="item"><a href="#home" class="navlink">Home</a></li>
+          <li class="item"><a href="#about" class="navlink">About Me</a></li>
+          <li class="item"><a href="#services" class="navlink">Skills</a></li>
+          <li class="item"><a href="#contact" class="navlink">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- Introduction Section -->
+    <section class="intro" id="home">
+      <h1 class="title section-intro">
+       <span> Hi, I'm</span> <strong>Suman Kr Sinha</strong>
+      </h1>
+      <p class="subtitle section-subtitle-intro">front-end dev(rookie)</p>
+      <div class="profileimg"></div><img
+        src="suman.png"
+        alt="Suman Kumar Sinha"
+        class="profile-image"
+      />
+    </section>
+
+    <!-- Services -->
+    <section class="skills" id="services">
+      <h2 class="title section-services">Skills</h2>
+      <hr />
+      <div class="servicesbox">
+        <div class="services-item">
+            <h3>HTML</h3>
+            <p>
+                <img src="html.png" alt="" class="services-png">
+            </p>
+            <!-- service -->
+          </div>
+        <div class="services-item">
+          <h3>CSS</h3>
+          <p>
+              <img src="css.png" alt="" class="services-png">
+          </p>
+        </div>
+        <!--/service -->
+        <div class="services-item">
+          <h3>Bootstrap</h3>
+          <p>
+            <img src="bs.png" alt="" class="services-png">
+          </p>
+        </div>
+        <!-- /service -->
+        <div class="services-item">
+          <h3>JavaScript</h3>
+          <p>
+           <img src="js.png" alt="" class="services-png">
+          </p>
+        </div>
+        <!-- /service -->
+      </div>
+      <button class="btn"><a href="#Mywork" class="myworkbtn">My Work</a></button>
+      <!-- /servicebox div -->
+    </section>
+
+    <!-- About Me-->
+    <section class="about" id="about">
+      <h2 class="title section-aboutme">Who I am</h2>
+      <p class="subtitle section-subtitle-about">
+        Developer & Robotics Trainer based out of Guwahati
+      </p>
+      <div class="about-me-body">
+        <p>
+    
+        Graduated from The Assam Kaziranga University.
+         Worked for TLZ education, Miles Bronson Residential School and Lakshya Academy as a Robotics Trainer.
+         Currently learning Web development to become a Full stack developer.
+         
+        </p>
+        <!-- <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Architecto nam odit pariatur doloribus soluta. Impedit sint incidunt accusantium tempora fugiat, quasi quas laudantium fugit hic! Esse, laboriosam quisquam! Amet, impedit?</p> -->
+      </div>
+
+      <img src="about image.jpeg" alt="" class="about-image" />
+    </section>
+
+    <hr />
+    <!-- My work -->
+    <section class="work" id="Mywork">
+      <h2 class="title section-Mywork">My Work</h2>
+      <p class="subtitle section-subtitle-work">Few projects that I've done.</p>
+      <div class="container">
+        <div class="project1"><a href="https://prog-prodigy.github.io/portfolio-template/" target="blank"><img src="/beginner portfolio.png"  alt=""></a></div>
+        <div class="project2"><a href="https://prog-prodigy.github.io/tindogUdemyProject.io/" target="blank"><img src="/beginner web.png" alt=""></a> </div>
+        <div class="project3"> <a href="https://prog-prodigy.github.io/Orderfood.io/" target="blank"><img src="/food website.png" alt=""></a></div>
+      </div>
+    </section>
+
+    <!-- footer -->
+    <footer>
+      <ul class="contact-list" id="contact">
+        <li class="contact-item">
+          <a href="mailto:sinhasumank41@gmail.com">
+            <i class="fa-solid fa fa-lg fa-envelope"></i>
+          </a>
+        </li>
+        <li class="contact-item">
+          <a href="https://www.linkedin.com/in/suman-kumar-sinha-2b21a1146/"
+            ><i class="fa fa-brands fa-lg fa-linkedin"></i
+          ></a>
+        </li>
+        <li class="contact-item">
+          <a href="https://www.instagram.com/s_u_m_a_n_s_i_n_h_a/"
+            ><i class="fa-brands fa fa-lg fa-instagram"></i
+          ></a>
+        </li>
+      </ul>
+    </footer>
+    <script src="index.js"></script>
+  </body>
+</html>
