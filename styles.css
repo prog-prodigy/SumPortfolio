@@ -262,7 +262,7 @@ h1>span{
   }
   .skills {
     background-color: var(--clr-dark);
-    background-image: url("/images/services\ background.jpg");
+    background-image: url("services\ background.jpg");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
